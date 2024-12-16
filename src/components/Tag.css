@@ -1,0 +1,58 @@
+.button {
+    background-color: #474bff; /* Bright blue background */
+    color: #fff;             /* White text */
+    border: none;            /* Removes default border */
+    border-radius: 8px;       /* Rounded corners */
+    padding: 10px 20px;      /* Adds spacing inside the button */
+    font-size: 16px;          /* Larger text size */
+    font-weight: bold;        /* Bold text */
+    cursor: pointer;         /* Pointer cursor on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth effects */
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #3a3ecf; /* Slightly darker blue on hover */
+    transform: scale(1.05);   /* Slight enlargement on hover */
+  }
+  
+  .button:active {
+    background-color: #2e32a5; /* Darker blue on click */
+    transform: scale(0.97);   /* Slight shrinking on click */
+  }
+  
+  .button:focus {
+    outline: none; /* Removes default focus outline */
+    box-shadow: 0 0 0 3px rgba(71, 75, 255, 0.5); /* Focus ring */
+  }
+  
+
+  /* Input Box Styling */
+.input-box {
+    width: 200px;             /* Fixed width for the input */
+    padding: 10px;            /* Inner padding for spacing */
+    font-size: 16px;          /* Text size */
+    border: 2px solid #ccc;   /* Light gray border */
+    border-radius: 8px;       /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth effects */
+  }
+  
+  .input-box:focus {
+    outline: none;            /* Removes default focus outline */
+    border-color: #474bff;    /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(71, 75, 255, 0.5); /* Focus shadow */
+  }
+
+  /* H3 Styling */
+.title {
+    font-size: 24px;          /* Adjust font size */
+    font-weight: bold;        /* Bold text */
+    color: #474bff;           /* Bright blue color */
+    text-align: center;       /* Center the text */
+    margin-bottom: 20px;      /* Add space below the heading */
+    text-transform: uppercase; /* Makes the text uppercase */
+    letter-spacing: 1px;      /* Adds spacing between letters */
+  }
+  
